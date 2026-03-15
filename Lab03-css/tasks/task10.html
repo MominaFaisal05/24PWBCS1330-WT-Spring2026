@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Effects Showcase</title>
+        <link rel="stylesheet" href="../styles/effects.css">
+        <link rel="stylesheet" href="../styles/typography.css">
+
+<style>
+.gradient-text{
+font-size:40px;
+font-weight:bold;
+background:linear-gradient(90deg, red, blue, green);
+-webkit-background-clip:text;
+color:transparent;
+text-align:center;
+}
+.custom-check{
+display:block;
+margin:10px;
+}
+.custom-check input{
+appearance:none;
+width:20px;
+height:20px;
+border:2px solid black;
+cursor:pointer;
+}
+.custom-check input:checked{
+background:green;
+}
+.custom-radio input{
+appearance:none;
+width:20px;
+height:20px;
+border-radius:50%;
+border:2px solid black;
+cursor:pointer;
+}
+.custom-radio input:checked{
+background:blue;
+}
+.clip-text{
+font-size:50px;
+font-weight:bold;
+background:url("../images/gallery.jpg");
+-webkit-background-clip:text;
+color:transparent;
+text-align:center;
+}
+.shadow-text{
+font-size:35px;
+text-align:center;
+color:white;
+text-shadow:
+2px 2px 0 black,
+4px 4px 5px gray,
+6px 6px 10px black;
+}
+body{
+font-family:Arial;
+padding:30px;
+}
+
+</style>
+</head>
+
+<body>
+<nav>
+<a href="../tasks/task01.html">Task1</a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html">Task3</a> |
+<a href="../tasks/task04.html">Task4</a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html">Task6</a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html">Task8</a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html"><strong>Task10</strong></a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a> 
+</nav>
+
+<hr>
+<h1 style="text-align:center;">TASK # 10</h1>
+<h1>Advanced Effects Showcase</h1>
+
+<h2>1. Gradient Text</h2>
+<p class="gradient-text">Gradient Color Text</p>
+
+<h2>2. Custom Checkbox</h2>
+<label class="custom-check">
+<input type="checkbox"> Option 1
+</label>
+<label class="custom-check">
+<input type="checkbox"> Option 2
+</label>
+
+<h2>3. Custom Radio Buttons</h2>
+<label class="custom-radio">
+<input type="radio" name="choice"> Choice A
+</label>
+
+<label class="custom-radio">
+<input type="radio" name="choice"> Choice B
+</label>
+
+<h2>4. Loading Animation</h2>
+<div class="loader"></div>
+<h2>5. Text Clipping with Background Image</h2>
+<p class="clip-text">IMAGE TEXT</p>
+<h2>6. Complex Shadow Effects</h2>
+
+<p class="shadow-text">Advanced Shadow Text</p>
+<br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+</body>
+</html>

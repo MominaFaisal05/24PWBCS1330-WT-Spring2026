@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styled Form</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/components.css">
+        <style>
+            form{
+                width: 300px;
+                margin: auto;
+            }
+            input,select{
+                width:100%;
+                padding: 10px;
+                margin: 8px 0;
+                border: 1px solid gray;
+            }
+            input:focus{
+                border-color:blue;
+                background: #eef;
+            }
+            button{
+                padding: 10px;
+                background: green;
+                color: white;
+                border: none;
+            }
+            .error{
+                color: red;
+            }
+            .success{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+<a href="../tasks/task01.html">Task1</a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html">Task3</a> |
+<a href="../tasks/task04.html">Task4</a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html"><strong>Task6</strong></a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html">Task8</a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html">Task10 </a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a>
+</nav>
+
+<hr>
+        <h1 style="text-align:center;">TASK # 06</h1>
+        <h1>Registration Form</h1>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <select>
+                    <option>Choose Course</option>
+                    <option>Web Tech</option>
+            </select>
+                <button>Submit</button>
+
+                <p class="error">Error message example</p>
+                <p class="success">Success message example</p>
+        </form>
+        <br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+    </body>
+</html>

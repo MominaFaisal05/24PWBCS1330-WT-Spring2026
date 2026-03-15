@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Gallery</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/effects.css">
+        <style>
+            .gallery img{
+                width: 200px;
+                margin: 15px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px gray;
+                transition: 0.3s;
+            }
+            .gallery img:hover{
+                transform:scale(1.1);
+                filter:brightness(120%);
+            }
+            .circle{
+                border-radius: 50%;
+            }
+            .overlay{
+                position: relative;
+                display: inline-block;
+            }
+            .overlay span{
+                position: absolute;
+                bottom:10px;
+                left:10px;
+                background:black;
+                color: white;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+<nav>
+<a href="../tasks/task01.html">Task1</a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html">Task3</a> |
+<a href="../tasks/task04.html"><strong>Task4</strong></a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html">Task6</a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html">Task8</a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html">Task10 </a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a>
+</nav>
+
+<hr>
+        <h1 style="text-align:center;">TASK # 04</h1>
+        <h1>Image Styling Portfolio</h1>
+        <div class="gallery">
+            <img src="../images/gallery.jpg">
+            <img src="..//images/icons.jpg" class="circle">
+<div class="overlay">
+<img src="..//images/background.jpg">
+<span>Image Text</span>
+</div>
+        </div>
+        <br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+    </body>
+</html>

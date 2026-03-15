@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Background Gallery</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <style>
+            .box{
+                width:300px;
+                height: 200px;
+                margin:20px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .color{background: blue;}
+            .image{
+                background: url("../images/background.jpg") no-repeat center;
+                background-size: cover;
+            }
+            .gradient{
+                background: linear-gradient(to right, red, yellow);
+            }
+            .radial{
+                background:radial-gradient(circle, purple, black);
+            }
+            .multi{
+                background:
+                url("https://picsum.photos/100") top left no-repeat,
+                linear-gradient(orange,red);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+<a href="../tasks/task01.html">Task1</a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html"><strong>Task3</strong></a> |
+<a href="../tasks/task04.html">Task4</a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html">Task6</a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html">Task8</a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html">Task10 </a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a>
+</nav>
+
+<hr>
+        <h1 style="text-align:center;">TASK # 03</h1>
+        <h1>Background Gallery</h1>
+        <div class="box color">Solid</div>
+        <div class="box image">Image</div>
+        <div class="box gradient">Gradient</div>
+        <div class="box radial">Radial</div>
+        <div class="box multi">Multiple</div>
+
+        <br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+    </body>
+</html>

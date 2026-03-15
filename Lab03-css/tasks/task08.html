@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 8 - Navigation Menu Styling</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/effects.css">
+        
+        <style>
+.navbar{
+background:#333;
+overflow:hidden;
+}
+.navbar a{
+float:left;
+color:white;
+text-align:center;
+padding:14px 20px;
+text-decoration:none;
+transition:0.3s;
+}
+.navbar a:hover{
+background:#575757;
+}
+.active{
+background:#007bff;
+}
+.dropdown{
+float:left;
+overflow:hidden;
+}
+.dropdown .dropbtn{
+background:#333;
+color:white;
+padding:14px 20px;
+border:none;
+cursor:pointer;
+}
+.dropdown-content{
+display:none;
+position:absolute;
+background:white;
+min-width:160px;
+box-shadow:0 0 10px gray;
+}
+.dropdown-content a{
+color:black;
+padding:10px;
+display:block;
+text-decoration:none;
+}
+.dropdown-content a:hover{
+background:#eee;
+}
+.dropdown:hover .dropdown-content{
+display:block;
+}
+.vertical-menu{
+width:200px;
+margin-top:30px;
+}
+.vertical-menu a{
+display:block;
+padding:10px;
+background:#f4f4f4;
+border-bottom:1px solid #ddd;
+text-decoration:none;
+color:black;
+transition:0.3s;
+}
+.vertical-menu a:hover{
+background:#ddd;
+}
+</style>
+</head>
+
+<body>
+<nav>
+<a href="../tasks/task01.html">Task1</a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html">Task3</a> |
+<a href="../tasks/task04.html">Task4</a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html">Task6</a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html"><strong>Task8</strong></a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html">Task10</a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a>
+</nav>
+
+<hr>
+<h1 style="text-align:center;">TASK # 08</h1>
+
+<h1>Navigation Menu Styling</h1>
+
+<div class="navbar">
+
+<a class="active" href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+
+<div class="dropdown">
+<button class="dropbtn">More</button>
+<div class="dropdown-content">
+
+<a href="#">Gallery</a>
+<a href="#">Blog</a>
+<a href="#">Contact</a>
+
+</div>
+</div>
+</div>
+
+<h2>Vertical Navigation</h2>
+
+<div class="vertical-menu">
+<a href="#">Home</a>
+<a href="#">Profile</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+
+</div>
+<br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+</body>
+</html>

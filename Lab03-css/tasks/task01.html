@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <style>
+            /*Basic Selectors */
+            p{color: blue;}
+            .highlight{background: yellow;}
+            #special{color: red}
+            *{font-family: Arial;}
+            div{border: 1px solid gray;
+            padding: 10px;}
+
+            /* Attribute selectors */
+            input[type="text"]{border: 2px solid green;}
+            a[target="_blank"]{color:purple;}
+            img[alt*="photo"]{border: 3px solid black;}
+
+            /* Combinators */
+            div p{color:green;}       
+            div > span{color:orange;} 
+            h3 + p{font-style:italic;}
+            h3 ~ p{background:#eee;}  
+
+            /* Pseudo classes */
+            a:hover{color:red;}
+            a:active{color:green;}
+            input:focus{background:#f0f0f0;}
+            li:first-child{color:blue;}
+            li:last-child{color:red;}
+
+            /* Pseudo elements */
+            p::first-letter{font-size:25px;}
+            
+        
+        </style>
+    </head>
+    <body>
+<nav>
+<a href="../tasks/task01.html"><strong>Task1</strong></a> |
+<a href="../tasks/task02.html">Task2</a> |
+<a href="../tasks/task03.html">Task3</a> |
+<a href="../tasks/task04.html">Task4</a> |
+<a href="../tasks/task05.html">Task5</a> |
+<a href="../tasks/task06.html">Task6</a> | 
+<a href="../tasks/task07.html">Task7</a> |
+<a href="../tasks/task08.html">Task8</a> |
+<a href="../tasks/task09.html">Task9</a> |
+<a href="../tasks/task10.html">Task10 </a> |
+<a href="../tasks/task11.html">Task11</a> |
+<a href="../tasks/task12.html">Task12</a>
+</nav>
+
+<hr>
+        <h1 style="text-align:center;">TASK # 01</h1>
+        <h1>Selectors Practice</h1>
+
+        <div>
+            <p class="highlight">Example Paragraph</p>
+            <span>Child Element</span>
+        </div>
+
+        <h3>Heading</h3>
+        <p id="special">Sibling paragraph</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <input type="text" placeholder="Focus me">
+        <br><br>
+
+        <a href="#" target="_blank">Test Link</a>
+        <br><br>
+        <a href="../index.html">
+        <button>⬅ Back to Home</button>
+    </body>
+</html>
