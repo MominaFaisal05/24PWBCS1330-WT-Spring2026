@@ -1,0 +1,14 @@
+.horizontal li{
+display:inline-block;
+background:#333;
+color:white;
+padding:10px;
+margin:5px;
+}
+
+.vertical li{
+display:block;
+background:gray;
+padding:10px;
+margin:5px;
+}

@@ -1,0 +1,13 @@
+.container::after{
+content:"";
+display:block;
+clear:both;
+}
+
+.box{
+float:left;
+width:30%;
+background:lightblue;
+padding:20px;
+margin:10px;
+}

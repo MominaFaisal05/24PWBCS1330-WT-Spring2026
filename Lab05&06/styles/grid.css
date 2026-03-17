@@ -1,0 +1,12 @@
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows:100px 100px;
+gap:10px;
+}
+.box{
+background:lightblue;
+display:flex;
+justify-content:center;
+align-items:center;
+}
